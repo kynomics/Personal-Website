@@ -1,0 +1,79 @@
+.cta-timeline {
+    padding: 40px;
+    background-color: #141414;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-timeline h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.tiles {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
+    max-height: 80vh;
+    /* Allows scrolling within a constrained height */
+    padding-right: 10px;
+}
+
+.tile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background: linear-gradient(145deg, #1e1e1e, #292929);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-wrap: wrap;
+    /* Ensures items wrap for smaller screens */
+}
+
+.tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.text-section {
+    flex: 1;
+    text-align: left;
+}
+
+.text-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ff6a00;
+}
+
+.text-section p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.text-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-section ul li {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.image-section {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    border-radius: 10px;
+}

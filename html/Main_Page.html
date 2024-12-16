@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Monoton&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/media/websitelogo.png" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="/" id="navbar_logo"><i class="fas fa-gem"></i>Anthony Ky</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item">
+                    <a href="/html/Personal_Blog.html" class="navbar_links">
+                        Projects
+                    </a>
+                    <li class="navbar_item">
+                        <a href="/html/tech.html" class="navbar_links">
+                        Tech
+                    </a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="/html/Personal_Blog.html" class="navbar_links">
+                    Blog
+                    </a>
+                    </li>
+                    <li class="navbar_btn">
+                        <a href="/html/sign_up.html" class="button">
+                    Sign Up
+                </a>
+                    </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main_container">
+            <div class="main_content">
+                <h1>Anthony Ky</h1>
+                <h2>Personal Site</h2>
+                <button class="main_btn"><a href="/html/Personal_Blog.html">Bi-Weekly Newsletter</a></button>
+            </div>
+            <div class="main_img-container">
+                <!--Review Undraw and find a pic on there-->
+            </div>
+        </div>
+    </div>
+
+    <!--To include: Name, College Name, Class and Section, Assignment Title, and Date Due-->
+    <!--Make this section smaller-->
+    <div class="services">
+        <h1>
+            Century College, IT Career Planning, Five Year Career Plan Guidelines, December 15th 2024
+        </h1>
+        <div class="services_container">
+            <button class="main_btn"><a href="/html/collegeAssignment.html" >Assignment Here</a></button>
+        </div>
+    </div>
+
+    <!--Contact Me-->
+    <div class="container">
+        <h1>Contact Me!</h1>
+        <form target="_blank" action="https://formsubmit.co/anthonykytech@gmail.com" method="POST">
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                    </div>
+                    <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+            <input type="hidden" name="_next" value="/html/thank_you_msg.html">
+        </form>
+    </div>
+
+    <div class="social_media">
+        <div class="social_media-wrap">
+            <div class="footer_logo">
+            </div>
+            <p class="website_rights">All rights reserved</p>
+            <div class="social_icons">
+                <a href="https://www.linkedin.com/in/anthony-bradford-188441162/" class="social_icon-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="/JS/app.js"></script>
+</body>
+
+</html>
