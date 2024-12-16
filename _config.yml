@@ -3,3 +3,6 @@ title: kymonics
 description: Website
 #show-downloads: true
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  # Comment others out and test
